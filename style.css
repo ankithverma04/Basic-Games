@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #001a23;
+    color: #fff;
+}
+
+.nav {
+    background-color: #b3efb2d8;
+    color: crimson;
+    position: sticky;
+    height: 10vh;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    margin-right: 5vw;
+    text-decoration: none;
+    color: crimson;
+}
+
+.nav a:active{
+    animation: ease-in-out;
+    animation-duration: 20ms;
+    animation-delay: 10ms;
+}
+
+.container,
+.msg-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg{
+    font-size: 3rem;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    width: 18vmin;
+    height: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 5px 6px 0px rgb(197, 134, 147);
+    background-color: #b3efb2;
+    color: crimson;
+    font-size: 8vmin;
+}
+
+.reset-btn {
+    width: 18vmin;
+    height: 10vmin;
+    border: none;
+    border-radius: 1rem;
+    background-color: #e8f1f2;
+    color: crimson;
+    margin-top: 8vmin;
+}
+
+.hide {
+    display: none;
+}
+.howtoplay-container{
+    height: 90vh;
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 5px solid black; */
+}
+
+#how-to-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#how-to-play p{
+    /* height: 150px; */
+    margin: 30px;
+}
+.foot {
+    background-color: #b3efb2;
+    color: crimson;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+}
